@@ -89,10 +89,11 @@ body{
     left: 0;
 }
 
-.form-control input span{
+.form-control label span{
     display: inline-block;
     font-size: 18px;
     min-width: 5px;
+    transition: 0.3s ease-in-out;
 }
 
 .form-control input:focus + label span,
